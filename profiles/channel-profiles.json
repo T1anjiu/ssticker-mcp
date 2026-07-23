@@ -1,0 +1,64 @@
+{
+  "profiles": [
+    {
+      "id": "generic",
+      "platform": "generic",
+      "version": 1,
+      "verified_at": "2026-07-20",
+      "source_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/tools",
+      "accepted": [
+        { "mime_type": "image/png", "delivery_kind": "image", "max_bytes": 20971520, "max_width": 4096, "max_height": 4096, "max_duration_ms": null, "method": "sendImage" },
+        { "mime_type": "image/jpeg", "delivery_kind": "image", "max_bytes": 20971520, "max_width": 4096, "max_height": 4096, "max_duration_ms": null, "method": "sendImage" },
+        { "mime_type": "image/webp", "delivery_kind": "sticker", "max_bytes": 20971520, "max_width": 4096, "max_height": 4096, "max_duration_ms": null, "method": "sendSticker", "fallback_method": "sendImage" },
+        { "mime_type": "image/gif", "delivery_kind": "animation", "max_bytes": 20971520, "max_width": 2048, "max_height": 2048, "max_duration_ms": 10000, "method": "sendAnimation", "fallback_method": "sendImage" }
+      ]
+    },
+    {
+      "id": "telegram-bot",
+      "platform": "telegram",
+      "version": 1,
+      "verified_at": "2026-07-20",
+      "source_url": "https://core.telegram.org/bots/api#sendsticker",
+      "accepted": [
+        { "mime_type": "image/webp", "delivery_kind": "sticker", "max_bytes": 524288, "max_width": 512, "max_height": 512, "max_duration_ms": null, "method": "sendSticker", "fallback_method": "sendPhoto" },
+        { "mime_type": "image/gif", "delivery_kind": "animation", "max_bytes": 52428800, "max_width": 1280, "max_height": 1280, "max_duration_ms": 10000, "method": "sendAnimation", "fallback_method": "sendPhoto" },
+        { "mime_type": "image/png", "delivery_kind": "image", "max_bytes": 10485760, "max_width": 10000, "max_height": 10000, "max_duration_ms": null, "method": "sendPhoto" },
+        { "mime_type": "image/jpeg", "delivery_kind": "image", "max_bytes": 10485760, "max_width": 10000, "max_height": 10000, "max_duration_ms": null, "method": "sendPhoto" }
+      ]
+    },
+    {
+      "id": "qq-official",
+      "platform": "qq",
+      "version": 1,
+      "verified_at": "2026-07-20",
+      "source_url": "https://bot.q.qq.com/wiki/develop/api-v2/",
+      "accepted": [
+        { "mime_type": "image/png", "delivery_kind": "image", "max_bytes": 10485760, "max_width": 4096, "max_height": 4096, "max_duration_ms": null, "method": "postMessage" },
+        { "mime_type": "image/jpeg", "delivery_kind": "image", "max_bytes": 10485760, "max_width": 4096, "max_height": 4096, "max_duration_ms": null, "method": "postMessage" },
+        { "mime_type": "image/gif", "delivery_kind": "animation", "max_bytes": 10485760, "max_width": 2048, "max_height": 2048, "max_duration_ms": 10000, "method": "postMessage", "fallback_method": "postMessage" }
+      ]
+    },
+    {
+      "id": "wecom-webhook",
+      "platform": "wechat",
+      "version": 1,
+      "verified_at": "2026-07-20",
+      "source_url": "https://developer.work.weixin.qq.com/document/path/91770",
+      "accepted": [
+        { "mime_type": "image/png", "delivery_kind": "image", "max_bytes": 2097152, "max_width": 4096, "max_height": 4096, "max_duration_ms": null, "method": "sendImage" },
+        { "mime_type": "image/jpeg", "delivery_kind": "image", "max_bytes": 2097152, "max_width": 4096, "max_height": 4096, "max_duration_ms": null, "method": "sendImage" }
+      ]
+    },
+    {
+      "id": "wechat-official-account",
+      "platform": "wechat",
+      "version": 1,
+      "verified_at": "2026-07-20",
+      "source_url": "https://developers.weixin.qq.com/doc/offiaccount/Message_Management/Service_Center_messages.html",
+      "accepted": [
+        { "mime_type": "image/png", "delivery_kind": "image", "max_bytes": 10485760, "max_width": 4096, "max_height": 4096, "max_duration_ms": null, "method": "sendCustomImage" },
+        { "mime_type": "image/jpeg", "delivery_kind": "image", "max_bytes": 10485760, "max_width": 4096, "max_height": 4096, "max_duration_ms": null, "method": "sendCustomImage" }
+      ]
+    }
+  ]
+}

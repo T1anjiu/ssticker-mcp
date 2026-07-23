@@ -1,0 +1,55 @@
+# ssticker-mcp - production compose
+#
+# Requires:
+#   - TLS termination at the reverse proxy (Nginx, Caddy, Cloudflare, ...)
+#   - SSTICKER_OIDC_* configured via .env or your secrets manager
+#   - SSTICKER_SIGNING_SECRET and SSTICKER_SESSION_SECRET set to >=32 random bytes
+#   - SSTICKER_ALLOW_INSECURE_REMOTE explicitly unset (the default in src/config.ts
+#     refuses to bind a non-loopback address with auth=none, so this compose file
+#     fails fast if OIDC is misconfigured)
+#
+# Usage:
+#   cp .env.example .env   # then edit .env with real secrets
+#   docker compose -f compose.prod.yaml --env-file .env up -d
+
+services:
+  ssticker:
+    build:
+      context: .
+    image: ssticker-mcp:0.1.0-alpha.0
+    init: true
+    restart: unless-stopped
+    # Bind only to the internal Docker network. Expose through a reverse proxy
+    # that terminates TLS and forwards to ssticker:3377.
+    expose:
+      - "3377"
+    environment:
+      SSTICKER_HOST: 0.0.0.0
+      SSTICKER_PORT: 3377
+      SSTICKER_PUBLIC_BASE_URL: ${SSTICKER_PUBLIC_BASE_URL:?SSTICKER_PUBLIC_BASE_URL is required}
+      SSTICKER_ALLOWED_ORIGINS: ${SSTICKER_ALLOWED_ORIGINS:?SSTICKER_ALLOWED_ORIGINS is required}
+      SSTICKER_AUTH_MODE: ${SSTICKER_AUTH_MODE:-oidc}
+      SSTICKER_ALLOW_INSECURE_REMOTE: ${SSTICKER_ALLOW_INSECURE_REMOTE:-false}
+      SSTICKER_OIDC_ISSUER: ${SSTICKER_OIDC_ISSUER:?SSTICKER_OIDC_ISSUER is required}
+      SSTICKER_OIDC_AUDIENCE: ${SSTICKER_OIDC_AUDIENCE:?SSTICKER_OIDC_AUDIENCE is required}
+      SSTICKER_OIDC_JWKS_URL: ${SSTICKER_OIDC_JWKS_URL:?SSTICKER_OIDC_JWKS_URL is required}
+      SSTICKER_SIGNING_SECRET: ${SSTICKER_SIGNING_SECRET:?SSTICKER_SIGNING_SECRET is required}
+      SSTICKER_SESSION_SECRET: ${SSTICKER_SESSION_SECRET:?SSTICKER_SESSION_SECRET is required}
+      SSTICKER_EMBEDDING_PROVIDER: ${SSTICKER_EMBEDDING_PROVIDER:-local}
+      SSTICKER_MODEL_ID: ${SSTICKER_MODEL_ID:-intfloat/multilingual-e5-small}
+      SSTICKER_LLM_BASE_URL: ${SSTICKER_LLM_BASE_URL:-}
+      SSTICKER_LLM_API_KEY: ${SSTICKER_LLM_API_KEY:-}
+      SSTICKER_LLM_MODEL: ${SSTICKER_LLM_MODEL:-}
+      SSTICKER_LOG_LEVEL: ${SSTICKER_LOG_LEVEL:-info}
+    volumes:
+      - ssticker-data:/data
+    read_only: true
+    tmpfs:
+      - /tmp:size=256m,mode=1777
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+volumes:
+  ssticker-data:

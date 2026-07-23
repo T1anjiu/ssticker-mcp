@@ -1,0 +1,118 @@
+{
+  "name": "ssticker-mcp",
+  "version": "0.1.0-alpha.0",
+  "description": "A self-hosted MCP server that recommends safe, context-aware stickers for chat channels.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/T1anjiu/ssticker-mcp.git",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "sticker",
+    "chat",
+    "ai",
+    "self-hosted",
+    "wechat",
+    "qq",
+    "telegram"
+  ],
+  "bin": {
+    "ssticker": "./dist/cli.js"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./adapters": "./dist/adapters/index.js"
+  },
+  "files": [
+    "dist",
+    "migrations",
+    "profiles",
+    "examples",
+    "docs",
+    "README.md",
+    "README.zh-CN.md",
+    "DESIGN.md",
+    "PRODUCT.md",
+    "LICENSE",
+    "NOTICE",
+    "THIRD-PARTY-NOTICES.md"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@10.33.2",
+  "scripts": {
+    "build": "pnpm run build:server && pnpm --dir apps/admin run build",
+    "build:server": "tsc -p tsconfig.json",
+    "dev": "tsx src/cli.ts serve",
+    "start": "node dist/cli.js serve",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "pnpm run build && playwright test",
+    "lint": "eslint .",
+    "typecheck": "tsc -p tsconfig.json --noEmit && pnpm --dir apps/admin run typecheck",
+    "demo:generate": "tsx scripts/generate-demo.ts",
+    "eval:generate": "tsx scripts/generate-eval-corpus.ts",
+    "eval": "tsx scripts/evaluate.ts",
+    "benchmark": "tsx scripts/benchmark.ts",
+    "check": "pnpm run lint && pnpm run typecheck && pnpm run test && pnpm run build",
+    "licenses:generate": "tsx scripts/generate-licenses.ts",
+    "licenses:check": "tsx scripts/check-licenses.ts",
+    "compose:check": "tsx scripts/check-compose.ts"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "4.2.0",
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "argon2": "0.44.0",
+    "better-sqlite3": "12.11.1",
+    "commander": "14.0.2",
+    "cookie-parser": "1.4.7",
+    "drizzle-orm": "0.45.2",
+    "express": "5.1.0",
+    "express-rate-limit": "8.1.0",
+    "helmet": "8.1.0",
+    "jose": "6.1.0",
+    "mime-types": "3.0.1",
+    "multer": "2.0.2",
+    "pino": "10.1.0",
+    "prom-client": "15.1.3",
+    "sharp": "0.35.3",
+    "sqlite-vec": "0.1.9",
+    "uuid": "13.0.0",
+    "yaml": "2.8.1",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.12.1",
+    "@playwright/test": "1.61.1",
+    "@types/better-sqlite3": "7.6.13",
+    "@types/cookie-parser": "1.4.10",
+    "@types/express": "5.0.6",
+    "@types/mime-types": "3.0.1",
+    "@types/multer": "2.0.2",
+    "@types/node": "24.10.1",
+    "@types/supertest": "6.0.3",
+    "eslint": "10.7.0",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "fast-check": "4.3.0",
+    "supertest": "7.1.4",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.64.0",
+    "vitest": "4.0.9"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "argon2",
+      "better-sqlite3",
+      "esbuild",
+      "onnxruntime-node",
+      "protobufjs",
+      "sharp"
+    ]
+  }
+}

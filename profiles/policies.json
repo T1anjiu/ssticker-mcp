@@ -1,0 +1,18 @@
+{
+  "profiles": [
+    {
+      "id": "default",
+      "version": 1,
+      "auto_threshold": 0.8,
+      "explicit_threshold": 0.62,
+      "scene_threshold": 0.75,
+      "margin_threshold": 0.08,
+      "direct_cooldown_seconds": 90,
+      "direct_turn_gap": 5,
+      "group_cooldown_seconds": 180,
+      "group_message_gap": 10,
+      "recent_duplicate_window": 20,
+      "event_ttl_hours": 24
+    }
+  ]
+}

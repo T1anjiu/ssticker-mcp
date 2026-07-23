@@ -1,0 +1,33 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 8
+    groups:
+      runtime-patch:
+        applies-to: version-updates
+        patterns:
+          - "@modelcontextprotocol/*"
+          - "better-sqlite3"
+          - "sharp"
+          - "@huggingface/transformers"
+          - "express"
+          - "drizzle-orm"
+          - "zod"
+          - "argon2"
+      tooling:
+        applies-to: version-updates
+        patterns:
+          - "vitest"
+          - "@playwright/test"
+          - "typescript"
+          - "tsx"
+          - "eslint"
+          - "typescript-eslint"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

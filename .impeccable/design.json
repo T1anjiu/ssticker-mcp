@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-20T00:00:00.000Z",
+  "title": "Design System: ssticker Operations Console",
+  "extensions": {
+    "colorMeta": {
+      "primary-olive": {
+        "role": "primary",
+        "displayName": "Archive Olive",
+        "canonical": "oklch(0.52 0.11 110)",
+        "tonalRamp": ["oklch(0.15 0.11 110)", "oklch(0.26 0.11 110)", "oklch(0.37 0.11 110)", "oklch(0.48 0.11 110)", "oklch(0.59 0.11 110)", "oklch(0.70 0.10 110)", "oklch(0.82 0.07 110)", "oklch(0.95 0.03 110)"]
+      },
+      "secondary-blue": {
+        "role": "secondary",
+        "displayName": "Evidence Blue",
+        "canonical": "oklch(0.44 0.10 245)",
+        "tonalRamp": ["oklch(0.15 0.10 245)", "oklch(0.26 0.10 245)", "oklch(0.37 0.10 245)", "oklch(0.48 0.10 245)", "oklch(0.59 0.09 245)", "oklch(0.70 0.08 245)", "oklch(0.82 0.06 245)", "oklch(0.95 0.02 245)"]
+      },
+      "canvas-white": {
+        "role": "neutral",
+        "displayName": "Canvas White",
+        "canonical": "oklch(1 0 0)",
+        "tonalRamp": ["oklch(0.15 0 0)", "oklch(0.26 0 0)", "oklch(0.37 0 0)", "oklch(0.48 0 0)", "oklch(0.59 0 0)", "oklch(0.70 0 0)", "oklch(0.82 0 0)", "oklch(0.95 0 0)"]
+      }
+    },
+    "typographyMeta": {
+      "headline": { "displayName": "Headline", "purpose": "Page and drawer titles." },
+      "body": { "displayName": "Operational body", "purpose": "Dense tables, forms, and explanations." }
+    },
+    "shadows": [
+      { "name": "overlay-structural", "value": "0 4px 8px oklch(0.22 0.018 110 / 0.14)", "purpose": "Drawers, menus, and overlays only." }
+    ],
+    "motion": [
+      { "name": "state-fast", "value": "180ms cubic-bezier(0.22, 1, 0.36, 1)", "purpose": "Control feedback and navigation state changes." }
+    ],
+    "breakpoints": [
+      { "name": "compact", "value": "640px" },
+      { "name": "workspace", "value": "960px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single dominant action in a workspace.",
+      "html": "<button class=\"ds-btn-primary\">审核通过</button>",
+      "css": ".ds-btn-primary { background: oklch(0.52 0.11 110); color: white; padding: 10px 16px; border: 0; border-radius: 6px; font: 600 15px/1.4 Inter, system-ui, sans-serif; transition: background 180ms cubic-bezier(0.22,1,0.36,1); } .ds-btn-primary:hover { background: oklch(0.46 0.11 110); } .ds-btn-primary:focus-visible { outline: 2px solid oklch(0.44 0.10 245); outline-offset: 2px; } .ds-btn-primary:active { background: oklch(0.41 0.10 110); }"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "A persistent, labeled catalog search field.",
+      "html": "<label class=\"ds-field\"><span>搜索素材</span><input class=\"ds-input\" placeholder=\"标题、标签或场景\"></label>",
+      "css": ".ds-field { display: grid; gap: 6px; color: oklch(0.22 0.018 110); font: 560 13px/1.35 Inter, system-ui, sans-serif; } .ds-input { background: white; color: oklch(0.22 0.018 110); padding: 10px 12px; border: 1px solid oklch(0.88 0.008 110); border-radius: 6px; font: 400 15px/1.5 Inter, system-ui, sans-serif; } .ds-input:focus-visible { outline: 2px solid oklch(0.44 0.10 245); outline-offset: 1px; }"
+    },
+    {
+      "name": "Status Chip",
+      "kind": "chip",
+      "refersTo": "surface",
+      "description": "A redundant text-and-symbol status indicator.",
+      "html": "<span class=\"ds-chip\"><span aria-hidden=\"true\">●</span> 待审核</span>",
+      "css": ".ds-chip { display: inline-flex; align-items: center; gap: 6px; background: oklch(0.97 0.006 110); color: oklch(0.22 0.018 110); border: 1px solid oklch(0.88 0.008 110); border-radius: 999px; padding: 5px 9px; font: 560 13px/1.2 Inter, system-ui, sans-serif; }"
+    },
+    {
+      "name": "Workspace Navigation",
+      "kind": "nav",
+      "refersTo": "surface",
+      "description": "A quiet navigation list with an explicit current item.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"管理端导航\"><a class=\"ds-nav-item is-active\" href=\"#\">素材库</a><a class=\"ds-nav-item\" href=\"#\">决策记录</a></nav>",
+      "css": ".ds-nav { display: grid; gap: 4px; width: 190px; background: oklch(0.97 0.006 110); padding: 8px; border-radius: 10px; } .ds-nav-item { color: oklch(0.22 0.018 110); padding: 9px 10px; border-radius: 6px; text-decoration: none; font: 560 14px/1.4 Inter, system-ui, sans-serif; } .ds-nav-item:hover { background: oklch(0.94 0.018 110); } .ds-nav-item:focus-visible { outline: 2px solid oklch(0.44 0.10 245); outline-offset: 1px; } .ds-nav-item.is-active { background: oklch(0.91 0.04 110); color: oklch(0.28 0.07 110); }"
+    },
+    {
+      "name": "Decision Trace",
+      "kind": "custom",
+      "refersTo": "surface",
+      "description": "An ordered, textual explanation of a recommendation decision.",
+      "html": "<ol class=\"ds-trace\"><li><strong>场景识别</strong><span>joy · 0.86</span></li><li><strong>策略</strong><span>通过自动发送阈值</span></li></ol>",
+      "css": ".ds-trace { display: grid; gap: 0; margin: 0; padding: 0; list-style-position: inside; color: oklch(0.22 0.018 110); font: 400 14px/1.5 Inter, system-ui, sans-serif; } .ds-trace li { display: flex; justify-content: space-between; gap: 16px; padding: 10px 0; border-bottom: 1px solid oklch(0.88 0.008 110); } .ds-trace span { color: oklch(0.46 0.016 110); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Evidence Desk",
+    "overview": "运营人员在清晰、安静的工作台里逐项审核将进入真实聊天的素材。表情预览负责趣味，产品外壳通过稳定结构和可核对原因建立信任。",
+    "keyCharacteristics": ["白色工作画布与低色度橄榄主色", "表格优先、抽屉补充、状态就地解释", "素材预览有表现力，控制面板保持节制", "完整键盘焦点与所有异步状态"],
+    "rules": [
+      { "name": "The Sparse Accent Rule", "body": "主色只用于可操作或已选中的元素。", "section": "colors" },
+      { "name": "The Task Scale Rule", "body": "管理端使用固定 rem 字号，禁止营销式流体大标题。", "section": "typography" },
+      { "name": "The Flat-by-Default Rule", "body": "静止表面默认无阴影。", "section": "elevation" }
+    ],
+    "dos": ["Do 让表格、筛选和详情抽屉形成主要工作流。", "Do 为 loading、empty、error、disabled 和 partial success 写完整状态。", "Do 让审核和安全状态同时具备文字、图标和颜色。"],
+    "donts": ["Don't 做成娱乐化大屏、充满装饰卡片的通用 SaaS 模板。", "Don't 使用霓虹渐变、玻璃拟态、嵌套卡片或装饰性网格背景。", "Don't 用颜色单独表达审核、安全、成功或失败。"]
+  }
+}

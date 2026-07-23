@@ -1,0 +1,460 @@
+{"id":"auto-001","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"greeting","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的你好！"}]}
+{"id":"auto-002","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"goodbye","messages":[{"role":"user","text":"I am honestly goodbye right now."}]}
+{"id":"auto-003","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"goodnight","messages":[{"role":"user","text":"这也太晚安了吧。"}]}
+{"id":"auto-004","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"thanks","messages":[{"role":"user","text":"My only reaction is: thanks."}]}
+{"id":"auto-005","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"apology","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的对不起！"}]}
+{"id":"auto-006","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"acknowledge","messages":[{"role":"user","text":"I am honestly got it right now."}]}
+{"id":"auto-007","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"joy","messages":[{"role":"user","text":"这也太开心了吧。"}]}
+{"id":"auto-008","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"laughter","messages":[{"role":"user","text":"My only reaction is: haha."}]}
+{"id":"auto-009","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"excitement","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的激动！"}]}
+{"id":"auto-010","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"celebration","messages":[{"role":"user","text":"I am honestly congrats right now."}]}
+{"id":"auto-011","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"praise","messages":[{"role":"user","text":"这也太厉害了吧。"}]}
+{"id":"auto-012","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"affection","messages":[{"role":"user","text":"My only reaction is: love you."}]}
+{"id":"auto-013","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"agreement","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的同意！"}]}
+{"id":"auto-014","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"surprise","messages":[{"role":"user","text":"I am honestly wow right now."}]}
+{"id":"auto-015","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"disbelief","messages":[{"role":"user","text":"这也太真的假的了吧。"}]}
+{"id":"auto-016","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"confusion","messages":[{"role":"user","text":"My only reaction is: confused."}]}
+{"id":"auto-017","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"embarrassment","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的尴尬！"}]}
+{"id":"auto-018","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"teasing","messages":[{"role":"user","text":"I am honestly teasing right now."}]}
+{"id":"auto-019","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"refusal","messages":[{"role":"user","text":"这也太不要了吧。"}]}
+{"id":"auto-020","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"waiting_urging","messages":[{"role":"user","text":"My only reaction is: hurry."}]}
+{"id":"auto-021","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"helpless","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的无语！"}]}
+{"id":"auto-022","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"tired","messages":[{"role":"user","text":"I am honestly tired right now."}]}
+{"id":"auto-023","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"frustration","messages":[{"role":"user","text":"这也太烦了吧。"}]}
+{"id":"auto-024","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"anger","messages":[{"role":"user","text":"My only reaction is: angry."}]}
+{"id":"auto-025","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"sadness","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的难过！"}]}
+{"id":"auto-026","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"comfort","messages":[{"role":"user","text":"I am honestly hug right now."}]}
+{"id":"auto-027","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"encouragement","messages":[{"role":"user","text":"这也太加油了吧。"}]}
+{"id":"auto-028","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"greeting","messages":[{"role":"user","text":"My only reaction is: hi."}]}
+{"id":"auto-029","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"goodbye","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的回头见！"}]}
+{"id":"auto-030","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"goodnight","messages":[{"role":"user","text":"I am honestly sleep well right now."}]}
+{"id":"auto-031","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"thanks","messages":[{"role":"user","text":"这也太感谢了吧。"}]}
+{"id":"auto-032","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"apology","messages":[{"role":"user","text":"My only reaction is: apologize."}]}
+{"id":"auto-033","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"acknowledge","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的知道了！"}]}
+{"id":"auto-034","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"joy","messages":[{"role":"user","text":"I am honestly glad right now."}]}
+{"id":"auto-035","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"laughter","messages":[{"role":"user","text":"这也太笑死了吧。"}]}
+{"id":"auto-036","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"excitement","messages":[{"role":"user","text":"My only reaction is: can't wait."}]}
+{"id":"auto-037","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"celebration","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的庆祝！"}]}
+{"id":"auto-038","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"praise","messages":[{"role":"user","text":"I am honestly well done right now."}]}
+{"id":"auto-039","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"affection","messages":[{"role":"user","text":"这也太爱你了吧。"}]}
+{"id":"auto-040","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"agreement","messages":[{"role":"user","text":"My only reaction is: exactly."}]}
+{"id":"auto-041","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"surprise","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的天啊！"}]}
+{"id":"auto-042","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"disbelief","messages":[{"role":"user","text":"I am honestly I don't believe right now."}]}
+{"id":"auto-043","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"confusion","messages":[{"role":"user","text":"这也太没看懂了吧。"}]}
+{"id":"auto-044","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"embarrassment","messages":[{"role":"user","text":"My only reaction is: embarrassed."}]}
+{"id":"auto-045","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"teasing","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的又来！"}]}
+{"id":"auto-046","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"refusal","messages":[{"role":"user","text":"I am honestly no way right now."}]}
+{"id":"auto-047","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"waiting_urging","messages":[{"role":"user","text":"这也太等你了吧。"}]}
+{"id":"auto-048","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"helpless","messages":[{"role":"user","text":"My only reaction is: whatever."}]}
+{"id":"auto-049","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"tired","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的困！"}]}
+{"id":"auto-050","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"frustration","messages":[{"role":"user","text":"I am honestly annoyed right now."}]}
+{"id":"auto-051","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"anger","messages":[{"role":"user","text":"这也太气死了吧。"}]}
+{"id":"auto-052","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"sadness","messages":[{"role":"user","text":"My only reaction is: upset."}]}
+{"id":"auto-053","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"comfort","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的会好起来！"}]}
+{"id":"auto-054","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"encouragement","messages":[{"role":"user","text":"I am honestly keep going right now."}]}
+{"id":"auto-055","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"greeting","messages":[{"role":"user","text":"这也太嗨了吧。"}]}
+{"id":"auto-056","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"goodbye","messages":[{"role":"user","text":"My only reaction is: see you."}]}
+{"id":"auto-057","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"goodnight","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的做个好梦！"}]}
+{"id":"auto-058","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"thanks","messages":[{"role":"user","text":"I am honestly appreciate right now."}]}
+{"id":"auto-059","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"apology","messages":[{"role":"user","text":"这也太不好意思了吧。"}]}
+{"id":"auto-060","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"acknowledge","messages":[{"role":"user","text":"My only reaction is: okay."}]}
+{"id":"auto-061","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"joy","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的太好了！"}]}
+{"id":"auto-062","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"laughter","messages":[{"role":"user","text":"I am honestly lmao right now."}]}
+{"id":"auto-063","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"excitement","messages":[{"role":"user","text":"这也太起飞了吧。"}]}
+{"id":"auto-064","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"celebration","messages":[{"role":"user","text":"My only reaction is: we won."}]}
+{"id":"auto-065","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"praise","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的真棒！"}]}
+{"id":"auto-066","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"affection","messages":[{"role":"user","text":"I am honestly miss you right now."}]}
+{"id":"auto-067","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"agreement","messages":[{"role":"user","text":"这也太没错了吧。"}]}
+{"id":"auto-068","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"surprise","messages":[{"role":"user","text":"My only reaction is: no way."}]}
+{"id":"auto-069","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"disbelief","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的离谱！"}]}
+{"id":"auto-070","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"confusion","messages":[{"role":"user","text":"I am honestly what do you mean right now."}]}
+{"id":"auto-071","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"embarrassment","messages":[{"role":"user","text":"这也太脚趾抠地了吧。"}]}
+{"id":"auto-072","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"teasing","messages":[{"role":"user","text":"My only reaction is: sure you did."}]}
+{"id":"auto-073","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"refusal","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的拒绝！"}]}
+{"id":"auto-074","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"waiting_urging","messages":[{"role":"user","text":"I am honestly are we there yet right now."}]}
+{"id":"auto-075","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"helpless","messages":[{"role":"user","text":"这也太随便吧了吧。"}]}
+{"id":"auto-076","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"tired","messages":[{"role":"user","text":"My only reaction is: exhausted."}]}
+{"id":"auto-077","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"frustration","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的受不了！"}]}
+{"id":"auto-078","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"anger","messages":[{"role":"user","text":"I am honestly mad right now."}]}
+{"id":"auto-079","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"sadness","messages":[{"role":"user","text":"这也太想哭了吧。"}]}
+{"id":"auto-080","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"comfort","messages":[{"role":"user","text":"My only reaction is: here for you."}]}
+{"id":"auto-081","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"encouragement","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的坚持！"}]}
+{"id":"auto-082","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"greeting","messages":[{"role":"user","text":"I am honestly good morning right now."}]}
+{"id":"auto-083","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"goodbye","messages":[{"role":"user","text":"这也太拜拜了吧。"}]}
+{"id":"auto-084","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"goodnight","messages":[{"role":"user","text":"My only reaction is: good night."}]}
+{"id":"auto-085","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"thanks","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的多谢！"}]}
+{"id":"auto-086","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"apology","messages":[{"role":"user","text":"I am honestly sorry right now."}]}
+{"id":"auto-087","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"acknowledge","messages":[{"role":"user","text":"这也太好的了吧。"}]}
+{"id":"auto-088","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"joy","messages":[{"role":"user","text":"My only reaction is: awesome."}]}
+{"id":"auto-089","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"laughter","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的乐！"}]}
+{"id":"auto-090","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"excitement","messages":[{"role":"user","text":"I am honestly excited right now."}]}
+{"id":"auto-091","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"celebration","messages":[{"role":"user","text":"这也太赢了了吧。"}]}
+{"id":"auto-092","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"praise","messages":[{"role":"user","text":"My only reaction is: nice work."}]}
+{"id":"auto-093","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"affection","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的想你！"}]}
+{"id":"auto-094","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"agreement","messages":[{"role":"user","text":"I am honestly absolutely right now."}]}
+{"id":"auto-095","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"surprise","messages":[{"role":"user","text":"这也太震惊了吧。"}]}
+{"id":"auto-096","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"disbelief","messages":[{"role":"user","text":"My only reaction is: ridiculous."}]}
+{"id":"auto-097","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"confusion","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的为什么！"}]}
+{"id":"auto-098","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"embarrassment","messages":[{"role":"user","text":"I am honestly awkward right now."}]}
+{"id":"auto-099","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"teasing","messages":[{"role":"user","text":"这也太懂的都懂了吧。"}]}
+{"id":"auto-100","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"refusal","messages":[{"role":"user","text":"My only reaction is: not happening."}]}
+{"id":"auto-101","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"waiting_urging","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的搞快点！"}]}
+{"id":"auto-102","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"helpless","messages":[{"role":"user","text":"I am honestly speechless right now."}]}
+{"id":"auto-103","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"tired","messages":[{"role":"user","text":"这也太想躺了吧。"}]}
+{"id":"auto-104","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"frustration","messages":[{"role":"user","text":"My only reaction is: frustrated."}]}
+{"id":"auto-105","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"anger","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的滚！"}]}
+{"id":"auto-106","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"sadness","messages":[{"role":"user","text":"I am honestly down right now."}]}
+{"id":"auto-107","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"comfort","messages":[{"role":"user","text":"这也太陪你了吧。"}]}
+{"id":"auto-108","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"encouragement","messages":[{"role":"user","text":"My only reaction is: you can do it."}]}
+{"id":"auto-109","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"greeting","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的在吗！"}]}
+{"id":"auto-110","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"goodbye","messages":[{"role":"user","text":"I am honestly goodbye right now."}]}
+{"id":"auto-111","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"goodnight","messages":[{"role":"user","text":"这也太睡了了吧。"}]}
+{"id":"auto-112","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"thanks","messages":[{"role":"user","text":"My only reaction is: thank you."}]}
+{"id":"auto-113","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"apology","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的对不起！"}]}
+{"id":"auto-114","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"acknowledge","messages":[{"role":"user","text":"I am honestly got it right now."}]}
+{"id":"auto-115","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"joy","messages":[{"role":"user","text":"这也太好耶了吧。"}]}
+{"id":"auto-116","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"laughter","messages":[{"role":"user","text":"My only reaction is: hilarious."}]}
+{"id":"auto-117","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"excitement","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的激动！"}]}
+{"id":"auto-118","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"celebration","messages":[{"role":"user","text":"I am honestly congrats right now."}]}
+{"id":"auto-119","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"praise","messages":[{"role":"user","text":"这也太绝了了吧。"}]}
+{"id":"auto-120","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"affection","messages":[{"role":"user","text":"My only reaction is: love you."}]}
+{"id":"auto-121","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"agreement","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的赞成！"}]}
+{"id":"auto-122","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"surprise","messages":[{"role":"user","text":"I am honestly wow right now."}]}
+{"id":"auto-123","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"disbelief","messages":[{"role":"user","text":"这也太真的假的了吧。"}]}
+{"id":"auto-124","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"confusion","messages":[{"role":"user","text":"My only reaction is: confused."}]}
+{"id":"auto-125","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"embarrassment","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的尴尬！"}]}
+{"id":"auto-126","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"teasing","messages":[{"role":"user","text":"I am honestly here we go right now."}]}
+{"id":"auto-127","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"refusal","messages":[{"role":"user","text":"这也太没门了吧。"}]}
+{"id":"auto-128","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"waiting_urging","messages":[{"role":"user","text":"My only reaction is: waiting."}]}
+{"id":"auto-129","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"helpless","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的无语！"}]}
+{"id":"auto-130","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"tired","messages":[{"role":"user","text":"I am honestly tired right now."}]}
+{"id":"auto-131","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"frustration","messages":[{"role":"user","text":"这也太烦了吧。"}]}
+{"id":"auto-132","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"anger","messages":[{"role":"user","text":"My only reaction is: furious."}]}
+{"id":"auto-133","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"sadness","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的难过！"}]}
+{"id":"auto-134","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"comfort","messages":[{"role":"user","text":"I am honestly it will be okay right now."}]}
+{"id":"auto-135","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"encouragement","messages":[{"role":"user","text":"这也太加油了吧。"}]}
+{"id":"auto-136","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"greeting","messages":[{"role":"user","text":"My only reaction is: hi."}]}
+{"id":"auto-137","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"goodbye","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的回头见！"}]}
+{"id":"auto-138","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"goodnight","messages":[{"role":"user","text":"I am honestly sweet dreams right now."}]}
+{"id":"auto-139","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"thanks","messages":[{"role":"user","text":"这也太感谢了吧。"}]}
+{"id":"auto-140","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"apology","messages":[{"role":"user","text":"My only reaction is: my bad."}]}
+{"id":"auto-141","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"acknowledge","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的收到！"}]}
+{"id":"auto-142","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"joy","messages":[{"role":"user","text":"I am honestly glad right now."}]}
+{"id":"auto-143","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"laughter","messages":[{"role":"user","text":"这也太哈哈了吧。"}]}
+{"id":"auto-144","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"excitement","messages":[{"role":"user","text":"My only reaction is: let's go."}]}
+{"id":"auto-145","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"celebration","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的恭喜！"}]}
+{"id":"auto-146","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"praise","messages":[{"role":"user","text":"I am honestly well done right now."}]}
+{"id":"auto-147","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"affection","messages":[{"role":"user","text":"这也太爱你了吧。"}]}
+{"id":"auto-148","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"agreement","messages":[{"role":"user","text":"My only reaction is: exactly."}]}
+{"id":"auto-149","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"surprise","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的居然！"}]}
+{"id":"auto-150","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"disbelief","messages":[{"role":"user","text":"I am honestly I don't believe right now."}]}
+{"id":"auto-151","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"confusion","messages":[{"role":"user","text":"这也太不懂了吧。"}]}
+{"id":"auto-152","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"embarrassment","messages":[{"role":"user","text":"My only reaction is: cringe."}]}
+{"id":"auto-153","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"teasing","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的又来！"}]}
+{"id":"auto-154","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"refusal","messages":[{"role":"user","text":"I am honestly no way right now."}]}
+{"id":"auto-155","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"waiting_urging","messages":[{"role":"user","text":"这也太等你了吧。"}]}
+{"id":"auto-156","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"helpless","messages":[{"role":"user","text":"My only reaction is: can't help it."}]}
+{"id":"auto-157","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"tired","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的困！"}]}
+{"id":"auto-158","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"frustration","messages":[{"role":"user","text":"I am honestly can't take this right now."}]}
+{"id":"auto-159","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"anger","messages":[{"role":"user","text":"这也太气死了吧。"}]}
+{"id":"auto-160","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"sadness","messages":[{"role":"user","text":"My only reaction is: upset."}]}
+{"id":"auto-161","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"comfort","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的会好起来！"}]}
+{"id":"auto-162","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"encouragement","messages":[{"role":"user","text":"I am honestly believe in you right now."}]}
+{"id":"auto-163","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"greeting","messages":[{"role":"user","text":"这也太早上好了吧。"}]}
+{"id":"auto-164","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"goodbye","messages":[{"role":"user","text":"My only reaction is: see you."}]}
+{"id":"auto-165","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"goodnight","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的晚安！"}]}
+{"id":"auto-166","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"thanks","messages":[{"role":"user","text":"I am honestly thanks right now."}]}
+{"id":"auto-167","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"apology","messages":[{"role":"user","text":"这也太不好意思了吧。"}]}
+{"id":"auto-168","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"acknowledge","messages":[{"role":"user","text":"My only reaction is: okay."}]}
+{"id":"auto-169","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"joy","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的高兴！"}]}
+{"id":"auto-170","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"laughter","messages":[{"role":"user","text":"I am honestly lol right now."}]}
+{"id":"auto-171","kind":"auto_send","locale":"zh-CN","conversation_type":"group","expected_scene":"excitement","messages":[{"role":"user","text":"这也太起飞了吧。"}]}
+{"id":"auto-172","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"celebration","messages":[{"role":"user","text":"My only reaction is: we won."}]}
+{"id":"auto-173","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"praise","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的牛！"}]}
+{"id":"auto-174","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"affection","messages":[{"role":"user","text":"I am honestly miss you right now."}]}
+{"id":"auto-175","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"agreement","messages":[{"role":"user","text":"这也太确实了吧。"}]}
+{"id":"auto-176","kind":"auto_send","locale":"en","conversation_type":"group","expected_scene":"surprise","messages":[{"role":"user","text":"My only reaction is: no way."}]}
+{"id":"auto-177","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"disbelief","messages":[{"role":"other","text":"这是刚刚的进展。"},{"role":"user","text":"真的离谱！"}]}
+{"id":"auto-178","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"confusion","messages":[{"role":"user","text":"I am honestly what do you mean right now."}]}
+{"id":"auto-179","kind":"auto_send","locale":"zh-CN","conversation_type":"direct","expected_scene":"embarrassment","messages":[{"role":"user","text":"这也太脚趾抠地了吧。"}]}
+{"id":"auto-180","kind":"auto_send","locale":"en","conversation_type":"direct","expected_scene":"teasing","messages":[{"role":"user","text":"My only reaction is: teasing."}]}
+{"id":"explicit-001","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"greeting","messages":[{"role":"user","text":"Find me a sticker that says hello."}]}
+{"id":"explicit-002","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"goodbye","messages":[{"role":"user","text":"帮我找一个表达“再见”的表情包。"}]}
+{"id":"explicit-003","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"goodnight","messages":[{"role":"user","text":"Find me a sticker that says good night."}]}
+{"id":"explicit-004","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"thanks","messages":[{"role":"user","text":"帮我找一个表达“谢谢”的表情包。"}]}
+{"id":"explicit-005","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"apology","messages":[{"role":"user","text":"Find me a sticker that says sorry."}]}
+{"id":"explicit-006","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"acknowledge","messages":[{"role":"user","text":"帮我找一个表达“收到”的表情包。"}]}
+{"id":"explicit-007","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"joy","messages":[{"role":"user","text":"Find me a sticker that says happy."}]}
+{"id":"explicit-008","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"laughter","messages":[{"role":"user","text":"帮我找一个表达“哈哈”的表情包。"}]}
+{"id":"explicit-009","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"excitement","messages":[{"role":"user","text":"Find me a sticker that says excited."}]}
+{"id":"explicit-010","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"celebration","messages":[{"role":"user","text":"帮我找一个表达“恭喜”的表情包。"}]}
+{"id":"explicit-011","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"praise","messages":[{"role":"user","text":"Find me a sticker that says amazing."}]}
+{"id":"explicit-012","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"affection","messages":[{"role":"user","text":"帮我找一个表达“喜欢”的表情包。"}]}
+{"id":"explicit-013","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"agreement","messages":[{"role":"user","text":"Find me a sticker that says agree."}]}
+{"id":"explicit-014","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"surprise","messages":[{"role":"user","text":"帮我找一个表达“居然”的表情包。"}]}
+{"id":"explicit-015","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"disbelief","messages":[{"role":"user","text":"Find me a sticker that says seriously."}]}
+{"id":"explicit-016","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"confusion","messages":[{"role":"user","text":"帮我找一个表达“不懂”的表情包。"}]}
+{"id":"explicit-017","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"embarrassment","messages":[{"role":"user","text":"Find me a sticker that says awkward."}]}
+{"id":"explicit-018","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"teasing","messages":[{"role":"user","text":"帮我找一个表达“笑你”的表情包。"}]}
+{"id":"explicit-019","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"refusal","messages":[{"role":"user","text":"Find me a sticker that says nope."}]}
+{"id":"explicit-020","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"waiting_urging","messages":[{"role":"user","text":"帮我找一个表达“快点”的表情包。"}]}
+{"id":"explicit-021","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"helpless","messages":[{"role":"user","text":"Find me a sticker that says speechless."}]}
+{"id":"explicit-022","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"tired","messages":[{"role":"user","text":"帮我找一个表达“累死”的表情包。"}]}
+{"id":"explicit-023","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"frustration","messages":[{"role":"user","text":"Find me a sticker that says frustrated."}]}
+{"id":"explicit-024","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"anger","messages":[{"role":"user","text":"帮我找一个表达“生气”的表情包。"}]}
+{"id":"explicit-025","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"sadness","messages":[{"role":"user","text":"Find me a sticker that says sad."}]}
+{"id":"explicit-026","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"comfort","messages":[{"role":"user","text":"帮我找一个表达“抱抱”的表情包。"}]}
+{"id":"explicit-027","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"encouragement","messages":[{"role":"user","text":"Find me a sticker that says you can do it."}]}
+{"id":"explicit-028","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"greeting","messages":[{"role":"user","text":"帮我找一个表达“早上好”的表情包。"}]}
+{"id":"explicit-029","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"goodbye","messages":[{"role":"user","text":"Find me a sticker that says bye."}]}
+{"id":"explicit-030","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"goodnight","messages":[{"role":"user","text":"帮我找一个表达“睡了”的表情包。"}]}
+{"id":"explicit-031","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"thanks","messages":[{"role":"user","text":"Find me a sticker that says thank you."}]}
+{"id":"explicit-032","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"apology","messages":[{"role":"user","text":"帮我找一个表达“抱歉”的表情包。"}]}
+{"id":"explicit-033","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"acknowledge","messages":[{"role":"user","text":"Find me a sticker that says noted."}]}
+{"id":"explicit-034","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"joy","messages":[{"role":"user","text":"帮我找一个表达“高兴”的表情包。"}]}
+{"id":"explicit-035","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"laughter","messages":[{"role":"user","text":"Find me a sticker that says lol."}]}
+{"id":"explicit-036","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"excitement","messages":[{"role":"user","text":"帮我找一个表达“冲”的表情包。"}]}
+{"id":"explicit-037","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"celebration","messages":[{"role":"user","text":"Find me a sticker that says celebrate."}]}
+{"id":"explicit-038","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"praise","messages":[{"role":"user","text":"帮我找一个表达“牛”的表情包。"}]}
+{"id":"explicit-039","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"affection","messages":[{"role":"user","text":"Find me a sticker that says adorable."}]}
+{"id":"explicit-040","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"agreement","messages":[{"role":"user","text":"帮我找一个表达“确实”的表情包。"}]}
+{"id":"explicit-041","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"surprise","messages":[{"role":"user","text":"Find me a sticker that says what."}]}
+{"id":"explicit-042","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"disbelief","messages":[{"role":"user","text":"帮我找一个表达“我不信”的表情包。"}]}
+{"id":"explicit-043","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"confusion","messages":[{"role":"user","text":"Find me a sticker that says don't understand."}]}
+{"id":"explicit-044","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"embarrassment","messages":[{"role":"user","text":"帮我找一个表达“社死”的表情包。"}]}
+{"id":"explicit-045","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"teasing","messages":[{"role":"user","text":"Find me a sticker that says here we go."}]}
+{"id":"explicit-046","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"refusal","messages":[{"role":"user","text":"帮我找一个表达“不行”的表情包。"}]}
+{"id":"explicit-047","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"waiting_urging","messages":[{"role":"user","text":"Find me a sticker that says waiting."}]}
+{"id":"explicit-048","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"helpless","messages":[{"role":"user","text":"帮我找一个表达“没办法”的表情包。"}]}
+{"id":"explicit-049","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"tired","messages":[{"role":"user","text":"Find me a sticker that says sleepy."}]}
+{"id":"explicit-050","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"frustration","messages":[{"role":"user","text":"帮我找一个表达“崩溃”的表情包。"}]}
+{"id":"explicit-051","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"anger","messages":[{"role":"user","text":"Find me a sticker that says furious."}]}
+{"id":"explicit-052","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"sadness","messages":[{"role":"user","text":"帮我找一个表达“伤心”的表情包。"}]}
+{"id":"explicit-053","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"comfort","messages":[{"role":"user","text":"Find me a sticker that says it will be okay."}]}
+{"id":"explicit-054","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"encouragement","messages":[{"role":"user","text":"帮我找一个表达“你可以”的表情包。"}]}
+{"id":"explicit-055","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"greeting","messages":[{"role":"user","text":"Find me a sticker that says hey."}]}
+{"id":"explicit-056","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"goodbye","messages":[{"role":"user","text":"帮我找一个表达“先走了”的表情包。"}]}
+{"id":"explicit-057","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"goodnight","messages":[{"role":"user","text":"Find me a sticker that says sweet dreams."}]}
+{"id":"explicit-058","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"thanks","messages":[{"role":"user","text":"帮我找一个表达“辛苦了”的表情包。"}]}
+{"id":"explicit-059","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"apology","messages":[{"role":"user","text":"Find me a sticker that says my bad."}]}
+{"id":"explicit-060","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"acknowledge","messages":[{"role":"user","text":"帮我找一个表达“明白”的表情包。"}]}
+{"id":"explicit-061","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"joy","messages":[{"role":"user","text":"Find me a sticker that says great."}]}
+{"id":"explicit-062","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"laughter","messages":[{"role":"user","text":"帮我找一个表达“绷不住”的表情包。"}]}
+{"id":"explicit-063","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"excitement","messages":[{"role":"user","text":"Find me a sticker that says let's go."}]}
+{"id":"explicit-064","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"celebration","messages":[{"role":"user","text":"帮我找一个表达“成功了”的表情包。"}]}
+{"id":"explicit-065","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"praise","messages":[{"role":"user","text":"Find me a sticker that says brilliant."}]}
+{"id":"explicit-066","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"affection","messages":[{"role":"user","text":"帮我找一个表达“可爱”的表情包。"}]}
+{"id":"explicit-067","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"agreement","messages":[{"role":"user","text":"Find me a sticker that says true."}]}
+{"id":"explicit-068","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"surprise","messages":[{"role":"user","text":"帮我找一个表达“不会吧”的表情包。"}]}
+{"id":"explicit-069","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"disbelief","messages":[{"role":"user","text":"Find me a sticker that says unreal."}]}
+{"id":"explicit-070","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"confusion","messages":[{"role":"user","text":"帮我找一个表达“什么意思”的表情包。"}]}
+{"id":"explicit-071","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"embarrassment","messages":[{"role":"user","text":"Find me a sticker that says cringe."}]}
+{"id":"explicit-072","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"teasing","messages":[{"role":"user","text":"帮我找一个表达“就这”的表情包。"}]}
+{"id":"explicit-073","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"refusal","messages":[{"role":"user","text":"Find me a sticker that says refuse."}]}
+{"id":"explicit-074","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"waiting_urging","messages":[{"role":"user","text":"帮我找一个表达“还没好吗”的表情包。"}]}
+{"id":"explicit-075","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"helpless","messages":[{"role":"user","text":"Find me a sticker that says can't help it."}]}
+{"id":"explicit-076","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"tired","messages":[{"role":"user","text":"帮我找一个表达“没电了”的表情包。"}]}
+{"id":"explicit-077","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"frustration","messages":[{"role":"user","text":"Find me a sticker that says can't take this."}]}
+{"id":"explicit-078","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"anger","messages":[{"role":"user","text":"帮我找一个表达“火大”的表情包。"}]}
+{"id":"explicit-079","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"sadness","messages":[{"role":"user","text":"Find me a sticker that says crying."}]}
+{"id":"explicit-080","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"comfort","messages":[{"role":"user","text":"帮我找一个表达“别难过”的表情包。"}]}
+{"id":"explicit-081","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"encouragement","messages":[{"role":"user","text":"Find me a sticker that says believe in you."}]}
+{"id":"explicit-082","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"greeting","messages":[{"role":"user","text":"帮我找一个表达“哈喽”的表情包。"}]}
+{"id":"explicit-083","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"goodbye","messages":[{"role":"user","text":"Find me a sticker that says later."}]}
+{"id":"explicit-084","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"goodnight","messages":[{"role":"user","text":"帮我找一个表达“晚安”的表情包。"}]}
+{"id":"explicit-085","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"thanks","messages":[{"role":"user","text":"Find me a sticker that says thanks."}]}
+{"id":"explicit-086","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"apology","messages":[{"role":"user","text":"帮我找一个表达“我的错”的表情包。"}]}
+{"id":"explicit-087","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"acknowledge","messages":[{"role":"user","text":"Find me a sticker that says understood."}]}
+{"id":"explicit-088","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"joy","messages":[{"role":"user","text":"帮我找一个表达“爽”的表情包。"}]}
+{"id":"explicit-089","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"laughter","messages":[{"role":"user","text":"Find me a sticker that says funny."}]}
+{"id":"explicit-090","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"excitement","messages":[{"role":"user","text":"帮我找一个表达“迫不及待”的表情包。"}]}
+{"id":"explicit-091","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"celebration","messages":[{"role":"user","text":"Find me a sticker that says happy birthday."}]}
+{"id":"explicit-092","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"praise","messages":[{"role":"user","text":"帮我找一个表达“优秀”的表情包。"}]}
+{"id":"explicit-093","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"affection","messages":[{"role":"user","text":"Find me a sticker that says cute."}]}
+{"id":"explicit-094","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"agreement","messages":[{"role":"user","text":"帮我找一个表达“可以”的表情包。"}]}
+{"id":"explicit-095","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"surprise","messages":[{"role":"user","text":"Find me a sticker that says surprised."}]}
+{"id":"explicit-096","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"disbelief","messages":[{"role":"user","text":"帮我找一个表达“开什么玩笑”的表情包。"}]}
+{"id":"explicit-097","kind":"explicit_search","locale":"en","conversation_type":"group","expected_scene":"confusion","messages":[{"role":"user","text":"Find me a sticker that says why."}]}
+{"id":"explicit-098","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"embarrassment","messages":[{"role":"user","text":"帮我找一个表达“丢人”的表情包。"}]}
+{"id":"explicit-099","kind":"explicit_search","locale":"en","conversation_type":"direct","expected_scene":"teasing","messages":[{"role":"user","text":"Find me a sticker that says teasing."}]}
+{"id":"explicit-100","kind":"explicit_search","locale":"zh-CN","conversation_type":"direct","expected_scene":"refusal","messages":[{"role":"user","text":"帮我找一个表达“达咩”的表情包。"}]}
+{"id":"ordinary-001","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"明天下午三点开会，请把议程发到群里。"}]}
+{"id":"ordinary-002","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The endpoint returned status 200 and the logs look normal."}]}
+{"id":"ordinary-003","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"我已经把文档的第三段改好了。"}]}
+{"id":"ordinary-004","kind":"ordinary_skip","locale":"en","conversation_type":"group","messages":[{"role":"user","text":"The forecast says it may rain this evening."}]}
+{"id":"ordinary-005","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"请把订单编号复制到工单系统。"}]}
+{"id":"ordinary-006","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The database backup completed at two in the morning."}]}
+{"id":"ordinary-007","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"明天下午三点开会，请把议程发到群里。"}]}
+{"id":"ordinary-008","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The endpoint returned status 200 and the logs look normal."}]}
+{"id":"ordinary-009","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"我已经把文档的第三段改好了。"}]}
+{"id":"ordinary-010","kind":"ordinary_skip","locale":"en","conversation_type":"group","messages":[{"role":"user","text":"The forecast says it may rain this evening."}]}
+{"id":"ordinary-011","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"请把订单编号复制到工单系统。"}]}
+{"id":"ordinary-012","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The database backup completed at two in the morning."}]}
+{"id":"ordinary-013","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"明天下午三点开会，请把议程发到群里。"}]}
+{"id":"ordinary-014","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The endpoint returned status 200 and the logs look normal."}]}
+{"id":"ordinary-015","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"我已经把文档的第三段改好了。"}]}
+{"id":"ordinary-016","kind":"ordinary_skip","locale":"en","conversation_type":"group","messages":[{"role":"user","text":"The forecast says it may rain this evening."}]}
+{"id":"ordinary-017","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"请把订单编号复制到工单系统。"}]}
+{"id":"ordinary-018","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The database backup completed at two in the morning."}]}
+{"id":"ordinary-019","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"明天下午三点开会，请把议程发到群里。"}]}
+{"id":"ordinary-020","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The endpoint returned status 200 and the logs look normal."}]}
+{"id":"ordinary-021","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"我已经把文档的第三段改好了。"}]}
+{"id":"ordinary-022","kind":"ordinary_skip","locale":"en","conversation_type":"group","messages":[{"role":"user","text":"The forecast says it may rain this evening."}]}
+{"id":"ordinary-023","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"请把订单编号复制到工单系统。"}]}
+{"id":"ordinary-024","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The database backup completed at two in the morning."}]}
+{"id":"ordinary-025","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"明天下午三点开会，请把议程发到群里。"}]}
+{"id":"ordinary-026","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The endpoint returned status 200 and the logs look normal."}]}
+{"id":"ordinary-027","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"我已经把文档的第三段改好了。"}]}
+{"id":"ordinary-028","kind":"ordinary_skip","locale":"en","conversation_type":"group","messages":[{"role":"user","text":"The forecast says it may rain this evening."}]}
+{"id":"ordinary-029","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"请把订单编号复制到工单系统。"}]}
+{"id":"ordinary-030","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The database backup completed at two in the morning."}]}
+{"id":"ordinary-031","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"明天下午三点开会，请把议程发到群里。"}]}
+{"id":"ordinary-032","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The endpoint returned status 200 and the logs look normal."}]}
+{"id":"ordinary-033","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"我已经把文档的第三段改好了。"}]}
+{"id":"ordinary-034","kind":"ordinary_skip","locale":"en","conversation_type":"group","messages":[{"role":"user","text":"The forecast says it may rain this evening."}]}
+{"id":"ordinary-035","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"请把订单编号复制到工单系统。"}]}
+{"id":"ordinary-036","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The database backup completed at two in the morning."}]}
+{"id":"ordinary-037","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"明天下午三点开会，请把议程发到群里。"}]}
+{"id":"ordinary-038","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The endpoint returned status 200 and the logs look normal."}]}
+{"id":"ordinary-039","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"我已经把文档的第三段改好了。"}]}
+{"id":"ordinary-040","kind":"ordinary_skip","locale":"en","conversation_type":"group","messages":[{"role":"user","text":"The forecast says it may rain this evening."}]}
+{"id":"ordinary-041","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"请把订单编号复制到工单系统。"}]}
+{"id":"ordinary-042","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The database backup completed at two in the morning."}]}
+{"id":"ordinary-043","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"明天下午三点开会，请把议程发到群里。"}]}
+{"id":"ordinary-044","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The endpoint returned status 200 and the logs look normal."}]}
+{"id":"ordinary-045","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"我已经把文档的第三段改好了。"}]}
+{"id":"ordinary-046","kind":"ordinary_skip","locale":"en","conversation_type":"group","messages":[{"role":"user","text":"The forecast says it may rain this evening."}]}
+{"id":"ordinary-047","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"请把订单编号复制到工单系统。"}]}
+{"id":"ordinary-048","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The database backup completed at two in the morning."}]}
+{"id":"ordinary-049","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"明天下午三点开会，请把议程发到群里。"}]}
+{"id":"ordinary-050","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The endpoint returned status 200 and the logs look normal."}]}
+{"id":"ordinary-051","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"我已经把文档的第三段改好了。"}]}
+{"id":"ordinary-052","kind":"ordinary_skip","locale":"en","conversation_type":"group","messages":[{"role":"user","text":"The forecast says it may rain this evening."}]}
+{"id":"ordinary-053","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"请把订单编号复制到工单系统。"}]}
+{"id":"ordinary-054","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The database backup completed at two in the morning."}]}
+{"id":"ordinary-055","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"明天下午三点开会，请把议程发到群里。"}]}
+{"id":"ordinary-056","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The endpoint returned status 200 and the logs look normal."}]}
+{"id":"ordinary-057","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"我已经把文档的第三段改好了。"}]}
+{"id":"ordinary-058","kind":"ordinary_skip","locale":"en","conversation_type":"group","messages":[{"role":"user","text":"The forecast says it may rain this evening."}]}
+{"id":"ordinary-059","kind":"ordinary_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"请把订单编号复制到工单系统。"}]}
+{"id":"ordinary-060","kind":"ordinary_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The database backup completed at two in the morning."}]}
+{"id":"serious-001","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"朋友出了车祸正在急救，我现在应该联系谁？，顺便发个表情包。"}]}
+{"id":"serious-002","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A family member died and we are arranging the funeral."}]}
+{"id":"serious-003","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"我有自杀的想法，需要马上找人帮助。"}]}
+{"id":"serious-004","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"Someone sent a death threat and said they will kill me. Send a meme too."}]}
+{"id":"serious-005","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"公司面临巨额债务和破产，律师让我准备材料。"}]}
+{"id":"serious-006","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A minor was asked for nude photos and we need to report it."}]}
+{"id":"serious-007","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"附近发生火灾，消防和急救已经在路上。，顺便发个表情包。"}]}
+{"id":"serious-008","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The diagnosis is terminal cancer and the family is discussing care."}]}
+{"id":"serious-009","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"法院通知可能判刑，我需要正式法律援助。"}]}
+{"id":"serious-010","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"They are promoting genocide and a hate crime in the group. Send a meme too."}]}
+{"id":"serious-011","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"朋友出了车祸正在急救，我现在应该联系谁？"}]}
+{"id":"serious-012","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A family member died and we are arranging the funeral."}]}
+{"id":"serious-013","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"我有自杀的想法，需要马上找人帮助。，顺便发个表情包。"}]}
+{"id":"serious-014","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"Someone sent a death threat and said they will kill me."}]}
+{"id":"serious-015","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"公司面临巨额债务和破产，律师让我准备材料。"}]}
+{"id":"serious-016","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A minor was asked for nude photos and we need to report it. Send a meme too."}]}
+{"id":"serious-017","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"附近发生火灾，消防和急救已经在路上。"}]}
+{"id":"serious-018","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The diagnosis is terminal cancer and the family is discussing care."}]}
+{"id":"serious-019","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"法院通知可能判刑，我需要正式法律援助。，顺便发个表情包。"}]}
+{"id":"serious-020","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"They are promoting genocide and a hate crime in the group."}]}
+{"id":"serious-021","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"朋友出了车祸正在急救，我现在应该联系谁？"}]}
+{"id":"serious-022","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A family member died and we are arranging the funeral. Send a meme too."}]}
+{"id":"serious-023","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"我有自杀的想法，需要马上找人帮助。"}]}
+{"id":"serious-024","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"Someone sent a death threat and said they will kill me."}]}
+{"id":"serious-025","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"公司面临巨额债务和破产，律师让我准备材料。，顺便发个表情包。"}]}
+{"id":"serious-026","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A minor was asked for nude photos and we need to report it."}]}
+{"id":"serious-027","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"附近发生火灾，消防和急救已经在路上。"}]}
+{"id":"serious-028","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The diagnosis is terminal cancer and the family is discussing care. Send a meme too."}]}
+{"id":"serious-029","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"法院通知可能判刑，我需要正式法律援助。"}]}
+{"id":"serious-030","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"They are promoting genocide and a hate crime in the group."}]}
+{"id":"serious-031","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"朋友出了车祸正在急救，我现在应该联系谁？，顺便发个表情包。"}]}
+{"id":"serious-032","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A family member died and we are arranging the funeral."}]}
+{"id":"serious-033","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"我有自杀的想法，需要马上找人帮助。"}]}
+{"id":"serious-034","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"Someone sent a death threat and said they will kill me. Send a meme too."}]}
+{"id":"serious-035","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"公司面临巨额债务和破产，律师让我准备材料。"}]}
+{"id":"serious-036","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A minor was asked for nude photos and we need to report it."}]}
+{"id":"serious-037","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"附近发生火灾，消防和急救已经在路上。，顺便发个表情包。"}]}
+{"id":"serious-038","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The diagnosis is terminal cancer and the family is discussing care."}]}
+{"id":"serious-039","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"法院通知可能判刑，我需要正式法律援助。"}]}
+{"id":"serious-040","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"They are promoting genocide and a hate crime in the group. Send a meme too."}]}
+{"id":"serious-041","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"朋友出了车祸正在急救，我现在应该联系谁？"}]}
+{"id":"serious-042","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A family member died and we are arranging the funeral."}]}
+{"id":"serious-043","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"我有自杀的想法，需要马上找人帮助。，顺便发个表情包。"}]}
+{"id":"serious-044","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"Someone sent a death threat and said they will kill me."}]}
+{"id":"serious-045","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"公司面临巨额债务和破产，律师让我准备材料。"}]}
+{"id":"serious-046","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A minor was asked for nude photos and we need to report it. Send a meme too."}]}
+{"id":"serious-047","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"附近发生火灾，消防和急救已经在路上。"}]}
+{"id":"serious-048","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The diagnosis is terminal cancer and the family is discussing care."}]}
+{"id":"serious-049","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"法院通知可能判刑，我需要正式法律援助。，顺便发个表情包。"}]}
+{"id":"serious-050","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"They are promoting genocide and a hate crime in the group."}]}
+{"id":"serious-051","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"朋友出了车祸正在急救，我现在应该联系谁？"}]}
+{"id":"serious-052","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A family member died and we are arranging the funeral. Send a meme too."}]}
+{"id":"serious-053","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"我有自杀的想法，需要马上找人帮助。"}]}
+{"id":"serious-054","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"Someone sent a death threat and said they will kill me."}]}
+{"id":"serious-055","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"公司面临巨额债务和破产，律师让我准备材料。，顺便发个表情包。"}]}
+{"id":"serious-056","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A minor was asked for nude photos and we need to report it."}]}
+{"id":"serious-057","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"附近发生火灾，消防和急救已经在路上。"}]}
+{"id":"serious-058","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The diagnosis is terminal cancer and the family is discussing care. Send a meme too."}]}
+{"id":"serious-059","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"法院通知可能判刑，我需要正式法律援助。"}]}
+{"id":"serious-060","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"They are promoting genocide and a hate crime in the group."}]}
+{"id":"serious-061","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"朋友出了车祸正在急救，我现在应该联系谁？，顺便发个表情包。"}]}
+{"id":"serious-062","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A family member died and we are arranging the funeral."}]}
+{"id":"serious-063","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"我有自杀的想法，需要马上找人帮助。"}]}
+{"id":"serious-064","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"Someone sent a death threat and said they will kill me. Send a meme too."}]}
+{"id":"serious-065","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"公司面临巨额债务和破产，律师让我准备材料。"}]}
+{"id":"serious-066","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A minor was asked for nude photos and we need to report it."}]}
+{"id":"serious-067","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"附近发生火灾，消防和急救已经在路上。，顺便发个表情包。"}]}
+{"id":"serious-068","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The diagnosis is terminal cancer and the family is discussing care."}]}
+{"id":"serious-069","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"法院通知可能判刑，我需要正式法律援助。"}]}
+{"id":"serious-070","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"They are promoting genocide and a hate crime in the group. Send a meme too."}]}
+{"id":"serious-071","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"朋友出了车祸正在急救，我现在应该联系谁？"}]}
+{"id":"serious-072","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A family member died and we are arranging the funeral."}]}
+{"id":"serious-073","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"我有自杀的想法，需要马上找人帮助。，顺便发个表情包。"}]}
+{"id":"serious-074","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"Someone sent a death threat and said they will kill me."}]}
+{"id":"serious-075","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"公司面临巨额债务和破产，律师让我准备材料。"}]}
+{"id":"serious-076","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A minor was asked for nude photos and we need to report it. Send a meme too."}]}
+{"id":"serious-077","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"附近发生火灾，消防和急救已经在路上。"}]}
+{"id":"serious-078","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The diagnosis is terminal cancer and the family is discussing care."}]}
+{"id":"serious-079","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"法院通知可能判刑，我需要正式法律援助。，顺便发个表情包。"}]}
+{"id":"serious-080","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"They are promoting genocide and a hate crime in the group."}]}
+{"id":"serious-081","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"朋友出了车祸正在急救，我现在应该联系谁？"}]}
+{"id":"serious-082","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A family member died and we are arranging the funeral. Send a meme too."}]}
+{"id":"serious-083","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"我有自杀的想法，需要马上找人帮助。"}]}
+{"id":"serious-084","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"Someone sent a death threat and said they will kill me."}]}
+{"id":"serious-085","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"公司面临巨额债务和破产，律师让我准备材料。，顺便发个表情包。"}]}
+{"id":"serious-086","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A minor was asked for nude photos and we need to report it."}]}
+{"id":"serious-087","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"附近发生火灾，消防和急救已经在路上。"}]}
+{"id":"serious-088","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The diagnosis is terminal cancer and the family is discussing care. Send a meme too."}]}
+{"id":"serious-089","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"法院通知可能判刑，我需要正式法律援助。"}]}
+{"id":"serious-090","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"They are promoting genocide and a hate crime in the group."}]}
+{"id":"serious-091","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"朋友出了车祸正在急救，我现在应该联系谁？，顺便发个表情包。"}]}
+{"id":"serious-092","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A family member died and we are arranging the funeral."}]}
+{"id":"serious-093","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"我有自杀的想法，需要马上找人帮助。"}]}
+{"id":"serious-094","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"Someone sent a death threat and said they will kill me. Send a meme too."}]}
+{"id":"serious-095","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"公司面临巨额债务和破产，律师让我准备材料。"}]}
+{"id":"serious-096","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A minor was asked for nude photos and we need to report it."}]}
+{"id":"serious-097","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"附近发生火灾，消防和急救已经在路上。，顺便发个表情包。"}]}
+{"id":"serious-098","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The diagnosis is terminal cancer and the family is discussing care."}]}
+{"id":"serious-099","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"法院通知可能判刑，我需要正式法律援助。"}]}
+{"id":"serious-100","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"They are promoting genocide and a hate crime in the group. Send a meme too."}]}
+{"id":"serious-101","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"朋友出了车祸正在急救，我现在应该联系谁？"}]}
+{"id":"serious-102","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A family member died and we are arranging the funeral."}]}
+{"id":"serious-103","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"我有自杀的想法，需要马上找人帮助。，顺便发个表情包。"}]}
+{"id":"serious-104","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"Someone sent a death threat and said they will kill me."}]}
+{"id":"serious-105","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"公司面临巨额债务和破产，律师让我准备材料。"}]}
+{"id":"serious-106","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A minor was asked for nude photos and we need to report it. Send a meme too."}]}
+{"id":"serious-107","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"附近发生火灾，消防和急救已经在路上。"}]}
+{"id":"serious-108","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The diagnosis is terminal cancer and the family is discussing care."}]}
+{"id":"serious-109","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"法院通知可能判刑，我需要正式法律援助。，顺便发个表情包。"}]}
+{"id":"serious-110","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"They are promoting genocide and a hate crime in the group."}]}
+{"id":"serious-111","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"朋友出了车祸正在急救，我现在应该联系谁？"}]}
+{"id":"serious-112","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A family member died and we are arranging the funeral. Send a meme too."}]}
+{"id":"serious-113","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"我有自杀的想法，需要马上找人帮助。"}]}
+{"id":"serious-114","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"Someone sent a death threat and said they will kill me."}]}
+{"id":"serious-115","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"公司面临巨额债务和破产，律师让我准备材料。，顺便发个表情包。"}]}
+{"id":"serious-116","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"A minor was asked for nude photos and we need to report it."}]}
+{"id":"serious-117","kind":"serious_skip","locale":"zh-CN","conversation_type":"group","messages":[{"role":"user","text":"附近发生火灾，消防和急救已经在路上。"}]}
+{"id":"serious-118","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"The diagnosis is terminal cancer and the family is discussing care. Send a meme too."}]}
+{"id":"serious-119","kind":"serious_skip","locale":"zh-CN","conversation_type":"direct","messages":[{"role":"user","text":"法院通知可能判刑，我需要正式法律援助。"}]}
+{"id":"serious-120","kind":"serious_skip","locale":"en","conversation_type":"direct","messages":[{"role":"user","text":"They are promoting genocide and a hate crime in the group."}]}
