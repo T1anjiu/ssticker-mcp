@@ -2,6 +2,7 @@ FROM node:24-bookworm-slim AS build
 
 ENV PNPM_HOME=/pnpm
 ENV PATH=$PNPM_HOME:$PATH
+ENV CI=true
 WORKDIR /workspace
 
 RUN corepack enable && corepack prepare pnpm@10.33.2 --activate \
