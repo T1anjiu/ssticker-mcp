@@ -1,5 +1,7 @@
 # ssticker-mcp (中文)
 
+[English](README.md)
+
 [![CI](https://img.shields.io/github/actions/workflow/status/T1anjiu/ssticker-mcp/ci.yml?branch=main&style=flat-square&logo=github&label=CI)](https://github.com/T1anjiu/ssticker-mcp/actions/workflows/ci.yml)
 [![Container](https://img.shields.io/github/actions/workflow/status/T1anjiu/ssticker-mcp/container.yml?branch=main&style=flat-square&logo=docker&label=镜像)](https://github.com/T1anjiu/ssticker-mcp/actions/workflows/container.yml)
 [![Release](https://img.shields.io/github/v/release/T1anjiu/ssticker-mcp?style=flat-square&include_prereleases&sort=semver)](https://github.com/T1anjiu/ssticker-mcp/releases)
