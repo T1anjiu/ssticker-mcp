@@ -316,8 +316,19 @@ function useResource<T>(path: string, refreshMs?: number) {
   useEffect(() => { void load(); }, [load]);
   useEffect(() => {
     if (!refreshMs) return;
-    const timer = window.setInterval(() => void load(), refreshMs);
-    return () => window.clearInterval(timer);
+    let cancelled = false;
+    let timer: number | undefined;
+    const refresh = async () => {
+      await load();
+      if (!cancelled) {
+        timer = window.setTimeout(() => void refresh(), refreshMs);
+      }
+    };
+    timer = window.setTimeout(() => void refresh(), refreshMs);
+    return () => {
+      cancelled = true;
+      if (timer !== undefined) window.clearTimeout(timer);
+    };
   }, [load, refreshMs]);
   return { data, loading, error, reload: load };
 }

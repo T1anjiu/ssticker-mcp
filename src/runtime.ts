@@ -45,7 +45,7 @@ export function createRuntime(options: LoadConfigOptions = {}): SStickerRuntime 
   const assets = new LocalAssetStore(config);
   const metrics = new MetricsService();
   const decisions = new DecisionService(config, database, embedding, assets, metrics);
-  const jobs = new JobWorker(database, catalog);
+  const jobs = new JobWorker(database, catalog, config.uploadDir);
   const auth = new AuthService(config, database);
   return {
     config,

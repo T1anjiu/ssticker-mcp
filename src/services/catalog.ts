@@ -206,21 +206,31 @@ export class CatalogService {
   }
 
   async rebuildIndex(): Promise<{ indexed: number; degraded: number; generation: number }> {
-    const stickers = this.database.listActiveStickers();
     const build = this.database.beginSearchIndexBuild();
     let degraded = 0;
+    let indexed = 0;
+    let offset = 0;
+    const pageSize = 200;
     try {
-      for (const sticker of stickers) {
-        const scenes = this.database.getStickerScenes(sticker.id);
-        const tags = this.database.getStickerTags(sticker.id);
-        const indexed = await this.buildIndexEntry(sticker, { scenes, tags });
-        this.database.stageSearchIndexEntry(build.slot, indexed.entry);
-        if (indexed.degraded) {
-          degraded += 1;
+      while (true) {
+        const stickers = this.database.listActiveStickersPage(pageSize, offset);
+        if (stickers.length === 0) {
+          break;
         }
+        for (const sticker of stickers) {
+          const scenes = this.database.getStickerScenes(sticker.id);
+          const tags = this.database.getStickerTags(sticker.id);
+          const entry = await this.buildIndexEntry(sticker, { scenes, tags });
+          this.database.stageSearchIndexEntry(build.slot, entry.entry);
+          if (entry.degraded) {
+            degraded += 1;
+          }
+          indexed += 1;
+        }
+        offset += stickers.length;
       }
       this.database.commitSearchIndexBuild(build.slot, build.generation);
-      return { indexed: stickers.length, degraded, generation: build.generation };
+      return { indexed, degraded, generation: build.generation };
     } catch (error) {
       this.database.abortSearchIndexBuild(build.slot);
       throw error;

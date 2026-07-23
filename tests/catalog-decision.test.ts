@@ -1,4 +1,7 @@
-import { readFile } from "node:fs/promises";
+import { existsSync } from "node:fs";
+import { mkdir, readFile } from "node:fs/promises";
+import { resolve } from "node:path";
+import sharp from "sharp";
 import { describe, expect, it } from "vitest";
 import { createTestRuntime, importActiveSticker } from "./helpers.js";
 
@@ -136,6 +139,112 @@ describe("catalog and decision pipeline", () => {
       test.runtime.database.sqlite.pragma("wal_checkpoint(TRUNCATE)");
       const databaseBytes = await readFile(test.runtime.config.databasePath);
       expect(databaseBytes.includes(Buffer.from(sentinel))).toBe(false);
+    } finally {
+      await test.cleanup();
+    }
+  });
+
+  it("removes completed web-upload sources after the import job runs", async () => {
+    const test = await createTestRuntime();
+    try {
+      const source = resolve(test.runtime.config.uploadDir, "uploaded-sticker.png");
+      await mkdir(test.runtime.config.uploadDir, { recursive: true });
+      await sharp({ create: { width: 64, height: 64, channels: 4, background: "#8baa33" } }).png().toFile(source);
+      test.runtime.database.createJob("catalog.import", {
+        base_directory: test.runtime.config.uploadDir,
+        item: {
+          external_id: "uploaded-sticker",
+          file: "uploaded-sticker.png",
+          title: "上传表情",
+          alt_text: { "zh-CN": "上传表情", en: "Uploaded sticker" },
+          scenes: [{ id: "joy", weight: 1 }],
+          tags: ["upload"],
+          tone: ["cute"],
+          intensity: 0.5,
+          audience: "any",
+          safety: "safe",
+          license: "CC0-1.0",
+          source: "test",
+          attribution: "test",
+          pack: "test"
+        }
+      });
+
+      expect(await test.runtime.jobs.runOnce()).toBe(true);
+      expect(existsSync(source)).toBe(false);
+      expect(test.runtime.database.countActiveStickers()).toBe(0);
+      expect(test.runtime.database.listStickers().items[0]?.status).toBe("reviewed");
+    } finally {
+      await test.cleanup();
+    }
+  });
+
+  it("keeps a web-upload source while its import job is eligible for retry", async () => {
+    const test = await createTestRuntime();
+    try {
+      const source = resolve(test.runtime.config.uploadDir, "retryable-upload.png");
+      await mkdir(test.runtime.config.uploadDir, { recursive: true });
+      await sharp({ create: { width: 64, height: 64, channels: 4, background: "#8baa33" } }).png().toFile(source);
+      test.runtime.database.createJob("catalog.import", {
+        base_directory: test.runtime.config.uploadDir,
+        item: {
+          external_id: "",
+          file: "retryable-upload.png",
+          title: "可重试上传",
+          alt_text: { "zh-CN": "可重试上传", en: "Retryable upload" },
+          scenes: [{ id: "joy", weight: 1 }],
+          tags: ["upload"],
+          tone: ["cute"],
+          intensity: 0.5,
+          audience: "any",
+          safety: "safe",
+          license: "",
+          source: "test",
+          attribution: "test",
+          pack: "test"
+        }
+      });
+
+      expect(await test.runtime.jobs.runOnce()).toBe(false);
+      expect(existsSync(source)).toBe(true);
+    } finally {
+      await test.cleanup();
+    }
+  });
+
+  it("removes a web-upload source after its import job exhausts retries", async () => {
+    const test = await createTestRuntime();
+    try {
+      const source = resolve(test.runtime.config.uploadDir, "failed-upload.png");
+      await mkdir(test.runtime.config.uploadDir, { recursive: true });
+      await sharp({ create: { width: 64, height: 64, channels: 4, background: "#8baa33" } }).png().toFile(source);
+      const job = test.runtime.database.createJob("catalog.import", {
+        base_directory: test.runtime.config.uploadDir,
+        item: {
+          external_id: "",
+          file: "failed-upload.png",
+          title: "失败上传",
+          alt_text: { "zh-CN": "失败上传", en: "Failed upload" },
+          scenes: [{ id: "joy", weight: 1 }],
+          tags: ["upload"],
+          tone: ["cute"],
+          intensity: 0.5,
+          audience: "any",
+          safety: "safe",
+          license: "",
+          source: "test",
+          attribution: "test",
+          pack: "test"
+        }
+      });
+
+      expect(await test.runtime.jobs.runOnce()).toBe(false);
+      expect(existsSync(source)).toBe(true);
+      expect(await test.runtime.jobs.runOnce()).toBe(false);
+      expect(existsSync(source)).toBe(true);
+      expect(await test.runtime.jobs.runOnce()).toBe(false);
+      expect(existsSync(source)).toBe(false);
+      expect(test.runtime.database.listJobs().find((entry) => entry.id === job.id)?.status).toBe("failed");
     } finally {
       await test.cleanup();
     }

@@ -442,6 +442,16 @@ export class SStickerDatabase {
     return rows.map(mapSticker);
   }
 
+  listActiveStickersPage(limit: number, offset: number): StickerRecord[] {
+    const rows = this.sqlite.prepare(`
+      SELECT * FROM stickers
+      WHERE status = 'active' AND safety = 'safe'
+      ORDER BY updated_at DESC, id DESC
+      LIMIT ? OFFSET ?
+    `).all(Math.min(Math.max(limit, 1), 500), Math.max(offset, 0)) as StickerRow[];
+    return rows.map(mapSticker);
+  }
+
   getActiveStickersByIds(ids: string[]): StickerRecord[] {
     const uniqueIds = [...new Set(ids)].slice(0, 100);
     if (uniqueIds.length === 0) {
