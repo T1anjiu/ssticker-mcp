@@ -15,7 +15,8 @@ COPY apps/admin/package.json apps/admin/package.json
 RUN pnpm install --frozen-lockfile
 
 COPY . .
-RUN pnpm run build && pnpm prune --prod
+RUN pnpm run build \
+    && pnpm --filter ssticker-mcp deploy --prod --legacy /prod
 
 FROM node:24-bookworm-slim AS runtime
 
@@ -29,14 +30,12 @@ WORKDIR /app
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg ca-certificates \
     && rm -rf /var/lib/apt/lists/* \
+    && rm -rf /usr/local/lib/node_modules/npm /usr/local/bin/npm /usr/local/bin/npx \
     && mkdir -p /data \
     && chown node:node /data
 
-COPY --from=build --chown=node:node /workspace/node_modules ./node_modules
-COPY --from=build --chown=node:node /workspace/dist ./dist
+COPY --from=build --chown=node:node /prod ./
 COPY --from=build --chown=node:node /workspace/apps/admin/dist ./apps/admin/dist
-COPY --from=build --chown=node:node /workspace/profiles ./profiles
-COPY --from=build --chown=node:node /workspace/package.json /workspace/README.md /workspace/LICENSE ./
 
 USER node
 EXPOSE 3377
