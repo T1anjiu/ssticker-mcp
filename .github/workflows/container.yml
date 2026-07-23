@@ -34,7 +34,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v6
         with:
-          images: ghcr.io/${{ github.repository }}
+          images: ghcr.io/t1anjiu/ssticker-mcp
           tags: |
             type=ref,event=branch
             type=ref,event=pr
@@ -45,7 +45,7 @@ jobs:
           labels: |
             org.opencontainers.image.title=ssticker-mcp
             org.opencontainers.image.description=Self-hosted MCP server that recommends safe chat stickers.
-            org.opencontainers.image.source=https://github.com/${{ github.repository }}
+            org.opencontainers.image.source=https://github.com/T1anjiu/ssticker-mcp
             org.opencontainers.image.licenses=Apache-2.0
 
       - name: Build and push (multi-arch)
@@ -65,7 +65,7 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: aquasecurity/trivy-action@v0.36.0
         with:
-          image-ref: ghcr.io/${{ github.repository }}:${{ github.ref_name }}
+          image-ref: ghcr.io/t1anjiu/ssticker-mcp:${{ github.ref_name }}
           format: table
           output: trivy-report.txt
           exit-code: "1"
